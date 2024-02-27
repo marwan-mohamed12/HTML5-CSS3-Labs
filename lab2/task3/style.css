@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .theorem-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .svg-container {
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+    padding-bottom: 200px;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+  }
+  
+  p {
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+  }
+  
+  .mathml-equation {
+    font-size: 28px;
+    color: red;
+  }

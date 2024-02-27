@@ -1,0 +1,42 @@
+div {
+    padding: 2em;
+    border: 1px solid black;
+    width: 70%;
+    margin: 35px auto;
+}
+
+input{
+    padding: 10px;
+}
+
+
+input[type='text'], input[type='email'] {
+    width: 40%;
+    margin-bottom: 15px;
+}
+
+input[type='text']:valid {
+    border: 1px solid rgb(37, 194, 37);
+}
+
+input[type='text'] + span {
+    display: none;
+}
+
+input[type='text']:invalid + span {
+    display: block;
+    color: red;
+}
+
+input[type='email']:valid {
+    border: 1px solid rgb(37, 194, 37);
+}
+
+input[type='email'] + span {
+    display: none;
+}
+
+input[type='email']:invalid + span {
+    display: block;
+    color: red;
+}

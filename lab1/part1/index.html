@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <video src="big_buck_bunny.mp4" controls id="video" ></video>
+        <br>
+        <input type="range" name="timeline" id="timeline" min="0" max="100" value="0">
+        <span id="durationText">00:00</span>
+        <button id="play">Play</button>
+        <button id="stop">Stop</button>
+        <button id="fastRewind"><<</button>
+        <button id="rewind"><</button>
+        <button id="forward">></button>
+        <button id="fastForward">>></button>
+        <input type="range" name="volume" id="volume" step="0.1" value="0.4" min="0" max="1">
+        <button id="mute">mute</button>
+        <button id="fullScreen">FullScreen</button>
+        <br>
+        <label for="speed">Speed</label>
+        <input type="range" name="speed" id="speed" min="0.5" max="2" value="1" step="0.5">
+        <script src="main.js"></script>
+    </section>
+</body>
+</html>

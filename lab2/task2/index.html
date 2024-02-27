@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <svg width="500" height="500">
+        <defs>
+            <radialGradient id="myGradient">
+                <stop offset="10%" stop-color="#8fa7e8" />
+                <stop offset="95%" stop-color="#4b6eda" />
+            </radialGradient>
+            <radialGradient id="myGradient2">
+                <stop offset="10%" stop-color="#2350D1" />
+                <stop offset="95%" stop-color="#8fa7e8" />
+            </radialGradient>
+            </defs>
+            <style>
+                #circle1 {
+                fill: url(#myGradient);
+                }
+                #circle2 {
+                fill: url(#myGradient2);
+                }
+            </style>
+        <circle id="circle1" cx="250" cy="250" r="250"/>
+        <circle id="circle2" cx="250" cy="250" r="200"/>
+        <text x="130" y="370" font-family="Arial" font-size="350" fill="white">N</text>
+    </svg>
+
+    <script src="main.js"></script>
+</body>
+</html>
