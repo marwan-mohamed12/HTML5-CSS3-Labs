@@ -3,7 +3,7 @@ var links = [
     { label: "Lab2", href: "lab2/task1/index.html",bg: "#16a085" },
     { label: "Lab3", href: "lab3/task1/index.html",bg: "#8e44ad" },
     { label: "Lab4", href: "lab4/index.html",bg: "#27ae60" },
-    { label: "Lab5", href: "",bg: "#f39c12" },
+    { label: "Lab5", href: "lab5/index.html",bg: "#f39c12" },
 ];
 var windowHeight = window.innerHeight;
 if (windowHeight === 0) windowHeight = 238;
