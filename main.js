@@ -39,7 +39,7 @@ function addLinks() {
     for (var i = 0, l = links.length; i < l; i++) {
         (link = document.createElement("a")),
             (hover = document.createElement("span"));
-        link.href = "#";
+        link.href = links[i].href;
         link.dataset.color = links[i].bg;
         link.style.display = "inline-block";
         link.style.textDecoration = "none";
